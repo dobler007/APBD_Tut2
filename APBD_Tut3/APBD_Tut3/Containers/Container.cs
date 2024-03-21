@@ -6,7 +6,6 @@ namespace APBD_Tut3
 {
     public class Container : IContainer
     {
-        // Adding a unique ID for each container
         public string ContainerNumber { get; }
         
         public int CargoMass { get; set; }
