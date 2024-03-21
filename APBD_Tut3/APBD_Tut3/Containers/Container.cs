@@ -32,7 +32,7 @@ namespace APBD_Tut3
             return Guid.NewGuid().ToString();
         }
 
-        public void Unload()
+        public virtual void Unload()
         {
             throw new NotImplementedException();
         }
